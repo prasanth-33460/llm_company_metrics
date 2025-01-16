@@ -1,13 +1,11 @@
 import json
 from src.query_parser import QueryParser
 from src.date_utils import DateUtils
-from src.json_formatter import JSONFormatter
 
 def main():
     query = input("Enter your query: ")
     query_parser = QueryParser()
     date_utils = DateUtils()
-    json_formatter = JSONFormatter()
     extracted_data = query_parser.parse(query)
 
     if isinstance(extracted_data, dict):
