@@ -1,0 +1,7 @@
+groq-cli
+openai
+python-dotenv
+python-dateutil
+pydantic
+pytest
+requests
